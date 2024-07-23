@@ -1,0 +1,52 @@
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color:#242424;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+  
+.what-i-doing .activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.activity {
+    border: 2px solid #2d2d2d;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 45%; /* Ensure two activities per row with some spacing */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.activity-icon {
+    color: #1bb0dd; /* Adjust icon color */
+}
+  
+.activity h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #fff;
+}
+  
+.activity p {
+    font-size: 18px;
+    color: #b3b3b3;
+}
+  
+@media (max-width: 1400px) {
+  .content {
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+  .activity {
+    width: 100%;
+  }
+  }
+  

@@ -1,0 +1,37 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.App {
+  min-height: 100vh;
+  background-color: #181818;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 5%;
+  background-image: url('./assets/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15% 0% 15%
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+  padding: 2% 15% 10% 15% /* Add padding to separate the content from edges */
+}
+
+@media (max-width: 1300px) {
+  .app-container {
+    padding: 5% 5% 0% 5%;
+  }
+
+  .content-container {
+    flex-direction: column;
+    padding: 5% 5% 5% 5%;
+  }
+}

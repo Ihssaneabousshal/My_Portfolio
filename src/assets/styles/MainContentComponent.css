@@ -1,0 +1,50 @@
+.main-content {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px 35px 20px 35px;
+  background-color: #131212;
+  border-radius: 10px;
+
+}
+
+
+
+h1, h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+  
+  h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 8%;
+    background: linear-gradient(90deg, #ff5722 0%, #00d2ff 100%);
+    border-radius: 2px;
+  }
+  
+  h2 svg {
+    margin-right: 10px;
+  }
+  
+  p {
+    font-size: 1.25em ;
+    line-height: 1.6;
+    color: #b3b3b3;}
+    
+@media (max-width: 1300px) {
+    .main-content {
+        margin-left: 0px;
+        margin-top: 20px; 
+      }
+}
