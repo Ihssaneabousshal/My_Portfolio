@@ -7,7 +7,7 @@
     border-radius: 15px;
   }
   
-  .profile-section {
+.profile-section {
     display: flex;
     align-items: center;
     background-color: #131212;
@@ -16,45 +16,66 @@
     width: 80%;
   }
   
-  .profile-image img {
+.profile-image img {   
     width: 150px;
     border-radius: 50%;
   }
   
-  .profile-info {
+.profile-info {
     flex: 1;
     margin-left: 20px;
   }
   
-  .profile-info h2 {
+.profile-info h2 {
     margin: 0;
     font-size: 30px;
   }
   
-  .profile-info p {
+.profile-info p {
     margin: 5px 0;
     font-size: 16px;
     color: #b3b3b3;
   }
   
-  .social-icons {
+.section {
     display: flex;
     gap: 10px;
     margin-top: 10px;
   }
+
+.bt {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.bt:hover {
+  color: #1bb0dd;
+}
+
+.bt.active {
+  color: #1bb0dd;
+  font-weight: bold; 
+}
+
   
-  .contact-info {
+.contact-info {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
   
-  .contact-info p {
+.contact-info p {
     margin: 5px 0;
     font-size: 15px;
     color: #ffffff;
   }
-  .email-link {
+.email-link {
     color: #fff;
     text-decoration: none;
 }
@@ -63,15 +84,24 @@
     color: #1bb0dd;
     text-decoration: none;
 }
-  .download-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1bb0dd;;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
-  }
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1bb0dd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.download-btn:hover {
+  text-decoration: none;
+  background-color: #1490c8; 
+  transform: scale(1.07); 
+}
+
+  
   @media (max-width: 1080px) {
     .profile-section {
       flex-direction: column;

@@ -1,6 +1,4 @@
-/* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 
 .App {
   min-height: 100vh;
@@ -22,7 +20,7 @@
 .content-container {
   display: flex;
   flex: 1;
-  padding: 2% 15% 10% 15% /* Add padding to separate the content from edges */
+  padding: 1% 15% 10% 15% 
 }
 
 @media (max-width: 1300px) {
@@ -32,6 +30,6 @@
 
   .content-container {
     flex-direction: column;
-    padding: 5% 5% 5% 5%;
+    padding: 2% 5% 5% 5%;
   }
 }

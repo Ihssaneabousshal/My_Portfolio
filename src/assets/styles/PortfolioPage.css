@@ -65,16 +65,19 @@
     margin-bottom: 10px;
   }
   
-  .portfolio-item-info .category-label.project {
-    background-color: #ff5722;
-  }
-  
-  .portfolio-item-info .category-label.certifications {
-    background-color: #ffc107;
-  }
+.portfolio-item-info .category-label.project,
+.portfolio-item-info .category-label.projet {
+  background-color: #ff5722; 
+}
+
+
+.portfolio-item-info .category-label.certificate,
+.portfolio-item-info .category-label.certificat {
+  background-color:  #03a9f4;
+}
   
   .portfolio-item-info .category-label.badge {
-    background-color: #03a9f4;
+    background-color: #ffc107;
   }
   
   .portfolio-item-info h3 {
@@ -95,6 +98,16 @@
     .portfolio-page {
       margin-left: 0px;
       margin-top: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .portfolio-items {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .portfolio-item {
+      width: 100%; 
     }
   }
   

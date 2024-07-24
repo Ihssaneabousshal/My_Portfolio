@@ -1,0 +1,160 @@
+{
+    "about": {
+      "title": "À propos de moi",
+      "description": "Je suis Ihssane Aboussahl, un ingénieur Cloud et DevOps dévoué et qualifié avec une solide expérience en services de cloud computing, provisionnement d'infrastructure, automatisation et intégration continue. Je suis passionné par l'idée de mettre à profit mon expertise technique pour contribuer à des projets innovants et rationaliser les processus de développement./ J'ai de l'expérience dans le travail avec des outils tels que Jenkins, Terraform et Ansible pour rationaliser les processus de développement et assurer un déploiement de code efficace. Compétent dans la gestion et la surveillance des services d'infrastructure cloud sur AWS et Azure, ainsi que dans le maintien d'une haute disponibilité dans les clusters de conteneurs basés sur Kubernetes. Mon expertise comprend également l'intégration des tests d'automatisation dans le pipeline CI/CD et le développement de scripts pour automatiser les tâches, améliorant ainsi l'efficacité et réduisant l'effort manuel./ Avec un diplôme d'ingénieur en informatique, je suis déterminé à apprendre en continu et à croître professionnellement. Je recherche des opportunités pour mettre à profit mes compétences et contribuer au succès des projets d'ingénierie cloud, DevOps, SRE./ En dehors de mes activités professionnelles, je suis engagé dans un apprentissage continu et une croissance personnelle. Pendant mon temps libre, j'aime lire, explorer le design graphique et participer à des activités de plein air.",
+      "activitiesTitle": "Ce que je fais",
+      "activities": [
+        {
+          "icon": "faCloud",
+          "title": "Ingénieur Cloud",
+          "description": "Je conçois des solutions cloud sécurisées et évolutives"
+        },
+        {
+          "icon": "faCogs",
+          "title": "DevOps",
+          "description": "J'accélère les déploiements et rends les processus plus efficaces avec l'automatisation et CI/CD"
+        },
+        {
+          "icon": "faSearch",
+          "title": "SRE",
+          "description": "Je m'assure que les logiciels sont fiables, solides et prêts à toute éventualité"
+        },
+        {
+          "icon": "faCode",
+          "title": "Développement logiciel",
+          "description": "J'apprends et je code en continu, que ce soit pour le plaisir ou pour des projets spécifiques. Mon GitHub n'est peut-être pas parfait mais croyez-moi, je suis une excellente codeur ;)"
+        }
+      ]
+    },
+    "profile": {
+          "socialMediaLinks": [
+            { "icon": "faLinkedin", "url": "https://www.linkedin.com/in/ihssane-aboussahl/" },
+            { "icon": "faGithub", "url": "https://github.com/Ihssaneabousshal" }
+          ],
+          "personalInfo": {
+            "name": "Ihssane Aboussahl",
+            "title": "Ingénieure Cloud | DevOps | SRE",
+            "email": "ihssaneaboussahl@gmail.com",
+            "location": "Rabat, MA",
+            "availability": "Ouverte aux opportunités",
+            "resume": "assets/doc/cvfr.pdf",
+            "profilePic": "assets/images/Aboussahl.jpg"
+          },
+          "downloadCV": "Télécharger le CV"
+    },
+    "portfolioItems": {
+        "Projets": [
+            {
+                "category": "Projet",
+                "title": "Implémentation d’une CI/CD pipeline pour les Containers",
+                "description": "Technologies : Jenkins, Maven, SonarQube, Docker, Kubernetes, Helm",
+                "image": "assets/images/jenkins.png"
+              },
+              {
+                "category": "Projet",
+                "title": "Mise en place d'une solution DevSecOps dans Azure DevOps",
+                "description": "Technologies : Azure DevOps, SonarCloud, Snyk, OWASP ZAP",
+                "image": "assets/images/devops.png"
+              },
+              {
+                "category": "Projet",
+                "title": "BookIt : Une application web microservices de réservation d'hôtel",
+                "description": "Technologies : Jenkins, Maven, SonarQube, Docker, Kubernetes, Helm",
+                "image": "assets/images/hotel.png"
+              }
+        ],
+        "Certificats": [
+          {
+            "category": "Certificat",
+            "title": "SAA-C03: AWS Certified Solutions Architect - Associate",
+            "type": "Certificate",
+            "link": "https://www.credly.com/badges/199eaa02-76ac-486f-aba9-e0e9ca65b551/linked_in_profile",
+            "image": "assets/images/aws-architect.png"
+          },
+          {
+            "category": "Certificat",
+            "title": "CLF-C01: Aws Cloud Practitioner",
+            "type": "Certificate",
+            "link": "https://www.credly.com/badges/199eaa02-76ac-486f-aba9-e0e9ca65b551/linked_in_profile",
+            "image": "assets/images/aws-pract.jpg"
+          },
+          {
+            "category": "Certificat",
+            "title": "Az 900: Azure Fundamentals",
+            "type": "Certificate",
+            "link": "https://www.credly.com/badges/f2a99507-597b-49a8-8c85-728f7244ef09?source=linked_in_profile",
+            "image": "assets/images/az900.png"
+          }
+        ]
+      },
+    "resume": {
+      "experience": [
+        {
+          "title": "Deloitte en tant que Stagiaire Cloud",
+          "duration": "Janv. - Juil. 2024",
+          "location": "Casablanca, MA",
+          "description": "Développer des modules Terraform IaC pour automatiser la création d'environnements sur Azure. Écrire des tests PowerShell. Migrer des applications sur site vers Azure en utilisant Azure Migrate. Automatiser les déploiements et les tests via Azure DevOps.",
+          "technologies": "Azure, Azure Migrate, Terraform, Azure DevOps"
+        },
+        {
+          "title": "Inpt en tant que Stagiaire DevOps",
+          "duration": "Juil. - Août 2023",
+          "location": "Rabat, MA",
+          "description": "Développer une API et la conteneuriser avec Docker. Créer des modules Terraform pour la fourniture de l'environnement AWS. Configurer les cibles en utilisant des playbooks Ansible. Automatiser les déploiements via Jenkins.",
+          "technologies": "Next.js, MongoDB, AWS, Jenkins, Docker, Terraform, Ansible"
+        },
+        {
+          "title": "Capgemini en tant que Stagiaire Cloud",
+          "duration": "Juil. 2022",
+          "location": "Casablanca, MA",
+          "description": "Déployer et configurer des ressources Azure en utilisant des modèles ARM. Surveiller les applications via Azure Monitor. Créer des alertes budgétaires avec Microsoft Cost Management.",
+          "technologies": "Azure Resource Manager (ARM), Azure VMs, Azure Functions, Azure Storage, Microsoft Cost Management, Azure Advisor"
+        }
+      ],
+      "education": [
+        {
+          "title": "Institut National des Postes et Télécommunications ‑ INPT",
+          "duration": "2021-2024",
+          "location": "Rabat, Maroc",
+          "description": "Diplôme d'Ingénieure, Ingénierie Cloud"
+        },
+        {
+          "title": "CPGE Bab Essahra - CPGE Ibn Timiya",
+          "duration": "2019-2021",
+          "location": "Rabat, Maroc",
+          "description": "Classes Préparatoires, PSI*"
+        }
+      ],
+      "skills": [
+        { "skill": "AWS, AZURE", "level": "Intermédiaire", "width": 80 },
+        { "skill": "Bash, PowerShell", "level": "Intermédiaire", "width": 80 },
+        { "skill": "RÉSEAU", "level": "Intermédiaire", "width": 80 },
+        { "skill": "FINOPS", "level": "Intermédiaire", "width": 80 },
+        { "skill": "Jenkins, GitLab, AzureDevOps", "level": "Intermédiaire", "width": 80 },
+        { "skill": "Ansible, Terraform", "level": "Intermédiaire", "width": 80 },
+        { "skill": "Docker, Kubernetes", "level": "Intermédiaire", "width": 80 },
+        { "skill": "MySQL, MongoDB, PostgreSql", "level": "Intermédiaire", "width": 80 }
+      ]
+    },
+    "contact": {
+        "title": "Contact",
+        "openForOpportunities": "Ouverte aux opportunités:",
+        "yes": "Oui",
+        "fullName": "Nom complet",
+        "emailAddress": "Adresse e-mail",
+        "yourMessage": "Votre message",
+        "submit": "Envoyer"
+      },
+      "sideNav": {
+        "items": [
+          { "to": "/", "icon": "user", "label": "À PROPOS" },
+          { "to": "/resume", "icon": "fileAlt", "label": "CV" },
+          { "to": "/portfolio", "icon": "cube", "label": "PORTFOLIO" },
+          { "to": "/contact", "icon": "envelope", "label": "CONTACT" }
+        ]
+      }
+    
+  }
+  
+  
+  

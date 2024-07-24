@@ -1,0 +1,158 @@
+{
+    "about": {
+      "title": "About Me",
+      "description": "I am Ihssane Aboussahl, a dedicated and skilled Cloud and DevOps Engineer with a robust background in cloud computing services, infrastructure provisioning, automation, and continuous integration. I am passionate about leveraging my technical expertise to contribute to innovative projects and streamline development processes./ I have experience working with tools such as Jenkins, Terraform, and Ansible to streamline development processes and ensure efficient code deployment. Proficient in managing and monitoring cloud infrastructure services on AWS and Azure, as well as maintaining high availability in Kubernetes-based container clusters. My expertise also includes integrating automation testing into the CI/CD pipeline and developing scripts to automate tasks, improving efficiency and reducing manual effort./ With an Engineer's degree in Computer Science, I am committed to continuous learning and professional growth. I am seeking opportunities to leverage my skills and contribute to the success of cloud engineering, DevOps, SRE projects./ Beyond my professional pursuits, I am committed to continuous learning and personal growth. In my spare time, I enjoy reading, exploring graphic design, and engaging in outdoor activities.",
+      "activitiesTitle": "What I'm Doing",
+      "activities": [
+          {
+            "icon": "faCloud",
+            "title": "Cloud Engineer",
+            "description": "I craft secure, scalable cloud solutions"
+          },
+          {
+            "icon": "faCogs",
+            "title": "DevOps",
+            "description": "I speed up deployments and make processes more efficient with automation and CI/CD"
+          },
+          {
+            "icon": "faSearch",
+            "title": "SRE",
+            "description": "I ensure software is rock-solid, reliable, and ready for anything"
+          },
+          {
+            "icon": "faCode",
+            "title": "Software Development",
+            "description": "I continuously learn and code, whether it’s for fun or specific projects. My GitHub might not be perfect but trust me I’m a great coder ;)"
+          }
+        ]
+    },
+    "portfolioItems": {
+            "Projects": [
+                {
+                  "category": "Project",
+                  "title": "Implementation of a CI/CD pipeline for Containers",
+                  "description": "Technologies: Jenkins, Maven, SonarQube, Docker, Kubernetes, Helm",
+                  "image": "assets/images/jenkins.png"
+                },
+                {
+                  "category": "Project",
+                  "title": "Implementation of a DevSecOps solution in Azure DevOps",
+                  "description": "Technologies: Azure DevOps, SonarCloud, Snyk, OWASP ZAP",
+                  "image": "assets/images/devops.png"
+                },
+                {
+                  "category": "Project",
+                  "title": "BookIt: A microservices web application for hotel booking",
+                  "description": "Technologies: Jenkins, Maven, SonarQube, Docker, Kubernetes, Helm",
+                  "image": "assets/images/hotel.png"
+                }
+              ],
+              "Certificates": [
+                {
+                  "category": "Certificate",
+                  "title": "SAA-C03: AWS Certified Solutions Architect - Associate",
+                  "type": "Certificate",
+                  "link": "https://www.credly.com/badges/199eaa02-76ac-486f-aba9-e0e9ca65b551/linked_in_profile",
+                  "image": "assets/images/aws-architect.png"
+                },
+                {
+                  "category": "Certificate",
+                  "title": "CLF-C01: Aws Cloud Practitioner",
+                  "type": "Certificate",
+                  "link": "https://www.credly.com/badges/199eaa02-76ac-486f-aba9-e0e9ca65b551/linked_in_profile",
+                  "image": "assets/images/aws-pract.jpg"
+                },
+                {
+                  "category": "Certificate",
+                  "title": "Az 900: Azure Fundamentals",
+                  "type": "Certificate",
+                  "link": "https://www.credly.com/badges/f2a99507-597b-49a8-8c85-728f7244ef09?source=linked_in_profile",
+                  "image": "assets/images/az900.png"
+                }
+              ]
+    },
+    "resume": {
+      "experience": [
+        {
+          "title": "Deloitte as Cloud Intern",
+          "duration": "Jan. - Jul. 2024",
+          "location": "Casablanca, MA",
+          "description": "Developed Terraform IaC modules to automate the creation of environments on Azure. Wrote PowerShell tests. Migrated on-premise applications to Azure using Azure Migrate. Automated deployments and testing via Azure DevOps.",
+          "technologies": "Azure, Azure Migrate, Terraform, Azure DevOps"
+        },
+        {
+          "title": "Inpt as DevOps Intern",
+          "duration": "Jul. - Aug. 2023",
+          "location": "Rabat, MA",
+          "description": "Developed an API and containerized it with Docker. Created Terraform modules for provisioning the AWS environment. Configured targets using Ansible playbooks. Automated deployments via Jenkins.",
+          "technologies": "Next.js, MongoDB, AWS, Jenkins, Docker, Terraform, Ansible"
+        },
+        {
+          "title": "Capgemini as Cloud Intern",
+          "duration": "Jul. 2022",
+          "location": "Casablanca, MA",
+          "description": "Deployed and configured Azure resources using ARM templates. Monitored applications via Azure Monitor. Created budget alerts with Microsoft Cost Management.",
+          "technologies": "Azure Resource Manager (ARM), Azure VMs, Azure Functions, Azure Storage, Microsoft Cost Management, Azure Advisor"
+        }
+      ],
+      "education": [
+        {
+          "title": "National Institute of Posts and Telecommunications ‑ INPT",
+          "duration": "2021-2024",
+          "location": "Rabat, Morocco",
+          "description": "Engineering Degree, Cloud Engineering"
+        },
+        {
+          "title": "CPGE Bab Essahra - CPGE Ibn Timiya",
+          "duration": "2019-2021",
+          "location": "Rabat, Morocco",
+          "description": "Preparatory Classes, PSI*"
+        }
+      ],
+      "skills": [
+        { "skill": "AWS, AZURE", "level": "Intermediate", "width": 80 },
+        { "skill": "Bash, PowerShell", "level": "Intermediate", "width": 80 },
+        { "skill": "NETWORK", "level": "Intermediate", "width": 80 },
+        { "skill": "FINOPS", "level": "Intermediate", "width": 80 },
+        { "skill": "Git, GitLab", "level": "Intermediate", "width": 80 },
+        { "skill": "Jenkins, AzureDevOps", "level": "Intermediate", "width": 80 },
+        { "skill": "Ansible, Terraform", "level": "Intermediate", "width": 80 },
+        { "skill": "Docker, Kubernetes", "level": "Intermediate", "width": 80 },
+        { "skill": "PostgreSql, MongoDB", "level": "Intermediate", "width": 80 }
+      ]
+    },
+    "contact": {
+        "title": "Contact",
+        "openForOpportunities": "Open for opportunities:",
+        "yes": "Yes",
+        "fullName": "Full name",
+        "emailAddress": "Email address",
+        "yourMessage": "Your message",
+        "submit": "Submit"
+      },
+    "profile": {
+        "socialMediaLinks": [
+          { "icon": "faLinkedin", "url": "https://www.linkedin.com/in/ihssane-aboussahl/" },
+          { "icon": "faGithub", "url": "https://github.com/Ihssaneabousshal" }
+        ],
+        "personalInfo": {
+          "name": "Ihssane Aboussahl",
+          "title": "Cloud Engineer | DevOps | SRE",
+          "email": "ihssaneaboussahl@gmail.com",
+          "location": "Rabat, MA",
+          "availability": "Open To Work",
+          "resume": "assets/doc/cv.pdf",
+          "profilePic": "assets/images/Aboussahl.jpg"
+        },
+        "downloadCV": "Download CV"
+      },
+    "sideNav": {
+        "items": [
+          { "to": "/", "icon": "user", "label": "ABOUT" },
+          { "to": "/resume", "icon": "fileAlt", "label": "RESUME" },
+          { "to": "/portfolio", "icon": "cube", "label": "PORTFOLIO" },
+          { "to": "/contact", "icon": "envelope", "label": "CONTACT" }
+        ]
+    }
+}
+  

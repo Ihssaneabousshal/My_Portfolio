@@ -7,8 +7,6 @@
     margin-bottom: 20px; 
     margin-left: 20px;
 }
-
-  
 .what-i-doing .activities {
     display: flex;
     flex-wrap: wrap;
@@ -20,15 +18,14 @@
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    width: 45%; /* Ensure two activities per row with some spacing */
+    width: 45%; 
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
   
 .activity-icon {
-    color: #1bb0dd; /* Adjust icon color */
+    color: #1bb0dd; 
 }
-  
 .activity h3 {
     margin: 10px 0;
     font-size: 24px;
@@ -48,5 +45,5 @@
   .activity {
     width: 100%;
   }
-  }
+}
   
